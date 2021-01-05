@@ -1,0 +1,24 @@
+.Landing {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #30475e;
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 1%;
+}
+
+
+/*****************************Responsiveness*****************************/
+
+
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

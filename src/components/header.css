@@ -1,0 +1,98 @@
+.logo {
+    height: 60px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: translate(30%, 30%);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.nav-social {
+    float: right;
+    padding: 30px 15px 0px 0px;
+    position: relative;
+}
+
+.nav-links {
+    display: block;
+    position: relative;
+    transform: translate(200px);
+}
+
+.navbar a {  
+    color: #30475e;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: rgb(15,48,87);
+    border-radius: 10px;
+    opacity: 0.4;
+    transition: .3s ease-in;
+}
+
+.mobile {
+    visibility: hidden;
+}
+
+.mobile-icon {
+    visibility: hidden;
+}
+
+
+/*****************************Responsiveness*****************************/
+
+
+@media screen and (max-width: 1150px) {
+
+    .nav-social {
+        visibility: hidden;
+    }
+    
+    .mobile-icon {
+        visibility: visible;
+        font-size: 35px;
+        top: 0;
+        right: 0;
+        display:block;
+        position: absolute;
+        transform: translate(-80%, 50%);
+        color: #30475e;
+    }
+
+    .mobile {
+        visibility: visible;
+    }
+
+    .link {
+        display: table;   
+        text-align: center;
+        padding: 2rem; 
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        left: -400px;
+        top: 100px;
+        position: relative;   
+        transition: 1s ease-in; 
+    }
+        
+
+    .active {
+        background-color: rgba(255, 255, 255, 0.664);
+        border-radius: 20px;
+        left: -175px;
+        top: 100px;
+        transition: 1s ease-in;
+        z-index: 1;
+    }
+}

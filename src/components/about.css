@@ -1,0 +1,83 @@
+.wrapper {
+    bottom: 30px;
+    border-radius: 30px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    padding: 30px 0px 30px;
+    width: 90%;
+}
+
+.header {
+    width: 60%;
+    margin: auto;
+}
+
+.text-area {
+   margin: 20px auto 20px auto;
+   font-size: 17px;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: .5vw solid #fff;
+    float: left;
+    height: 17.5vw;
+    width: 17.5vw; 
+}
+
+#heading {
+    color: #30475e;
+    font-family: 'Courgette', cursive;
+    font-size: 6.5vw;
+    font-weight: 800;
+    padding-top: 1%;
+    margin-bottom: 30px;
+}
+
+
+#heading2 {
+    color:#30475e;
+    font-family: "overpass";
+    font-size: 3vw;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+H4 {
+    font-family: 'Courgette', cursive;
+    color:#30475e;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0px 0px 0px;
+}
+
+.iconGrid {
+    margin: 50px auto;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+}
+
+.icon {
+    padding: 10px;
+    width: 50%;
+}
+
+
+/*****************************Responsiveness*****************************/
+
+
+@media screen and (max-width: 800px) {
+
+    .iconGrid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+}

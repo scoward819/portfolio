@@ -1,0 +1,33 @@
+.contact-title {
+    color: #30475e;
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.container {
+    margin-top:50px;
+}
+
+.contactForm {
+    color: #30475e;
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+Button {
+    float: right;
+    padding: 20px;
+}
+
+
+/*****************************Responsiveness*****************************/
+
+
+@media screen and (max-width: 770px) {
+    .contact-title {
+        font-size: 25px;   
+    }
+}
