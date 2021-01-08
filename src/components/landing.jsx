@@ -18,7 +18,7 @@ function Landing() {
     }, 1500);
 
     return (
-        <div>
+        <div className="wrapper">
             <Collapse in={logo} timeout={1000}>
                 <img className="Landing" src={process.env.PUBLIC_URL + "/images/Logo.PNG"} alt="Logo" />
             </Collapse>

@@ -29,7 +29,7 @@ function About() {
                 <div><img className="icon jquery" src={process.env.PUBLIC_URL + "/images/JQuery.webp"} alt="J query"/></div>
                 <div><img className="icon bootstrap" src={process.env.PUBLIC_URL + "/images/Bootstrap-5.PNG"} alt="Bootstrap 5"/></div>
                 <div><img className="icon node" src={process.env.PUBLIC_URL + "/images/Node-js.PNG"} alt="Node JS"/></div>
-                <div><img className="icon babel" src={process.env.PUBLIC_URL + "/images/Babel.png"} alt="Babel"/></div>
+                <div><img className="icon babel" src={process.env.PUBLIC_URL + "/images/Babel.PNG"} alt="Babel"/></div>
                 <div><img className="icon es6" src={process.env.PUBLIC_URL + "/images/Es6.PNG"} alt="es6"/></div>
                 <div><img className="icon express" src={process.env.PUBLIC_URL + "/images/ExpressJS.PNG"} alt="Express JS"/></div>
                 <div><img className="icon mongo" src={process.env.PUBLIC_URL + "/images/MongoDB.PNG"} alt="Mongo DB"/></div>
