@@ -74,8 +74,8 @@ const Sites = [
     {
         id:10,
         text: "My first project with React on CodeSandbox. I plan to add a backend to store the data soon.",
-        link: process.env.PUBLIC_URL + "https://7hhbb.csb.app/",
-        image: "/images/KeeperApp.JPG",
+        link: "https://7hhbb.csb.app/",
+        image: process.env.PUBLIC_URL + "/images/KeeperApp.JPG",
         title: "Keeper App using React",
         alt: "Keeper App"
     }
