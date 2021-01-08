@@ -1,8 +1,14 @@
-.Landing {
-    height: 50%;
-    width: 50%;
+
+* {
     justify-content: center;
-    margin-top: 100px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .Landing {
+    height: 60%;
+    width: 40%;
+    margin-top: 20vh;
 }
 
 h1 {

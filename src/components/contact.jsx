@@ -31,15 +31,10 @@ function Contact(props) {
         email:"",
         message:""
       });
-    
-      console.log(contact.name);
-      console.log(contact.email);
-      console.log(contact.message);
 
-
-      Axios.post("http://localhost:3000/email", {contact})
+      Axios.post("https://portfolio-contactform.herokuapp.com/email", {contact})
         .then( res => {
-          setContact.sent=true 
+          setContact.sent(true) 
           resetForm()
         })
         .catch( () => {
