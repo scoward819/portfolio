@@ -24,7 +24,7 @@ function App() {
     return (
         <div>
         {landing ? <Landing /> : 
-        <Router>
+        <Router basename="/portfolio">
             <div>
                 <Header />
                 <Switch>

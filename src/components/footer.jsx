@@ -12,7 +12,7 @@ function Footer() {
             <div  className="footer">
             <div></div>
             <div>
-                <img className="footerLogo" src={process.env.PUBLIC_URL + "/images/Logo.png"} alt="Logo" />
+                <img className="footerLogo" src={process.env.PUBLIC_URL + "/images/Logo.PNG"} alt="Logo" />
                 <br />
                 "Copyright <i className="far fa-copyright"></i> {year} Nick Brown"
             </div>      

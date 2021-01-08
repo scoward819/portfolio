@@ -6,7 +6,7 @@ function About() {
         <div className="wrapper">
             <div className="header"> 
             <div>
-            <img className="circle-img" src={process.env.PUBLIC_URL + "/images/ProfilePic.jpg"} alt="Profile"/>
+            <img className="circle-img" src={process.env.PUBLIC_URL + "/images/ProfilePic.JPG"} alt="Profile"/>
             </div>
                 <h1 id="heading">Hi I'm <br /> Nick Brown </h1> 
             </div>
@@ -23,22 +23,22 @@ function About() {
                 
                
                 <div className="iconGrid">
-                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/html5.png"} alt="HTML 5"/></div>
-                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/css3.png"} alt="CSS 3"/></div>
-                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/js.png"} alt="Js"/></div>
+                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/html5.PNG"} alt="HTML 5"/></div>
+                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/css3.PNG"} alt="CSS 3"/></div>
+                <div><img className="icon html" src={process.env.PUBLIC_URL + "/images/js.PNG"} alt="Js"/></div>
                 <div><img className="icon jquery" src={process.env.PUBLIC_URL + "/images/jQuery.webp"} alt="J query"/></div>
-                <div><img className="icon bootstrap" src={process.env.PUBLIC_URL + "/images/bootstrap-5.png"} alt="Bootstrap 5"/></div>
-                <div><img className="icon node" src={process.env.PUBLIC_URL + "/images/Node-js.png"} alt="Node JS"/></div>
+                <div><img className="icon bootstrap" src={process.env.PUBLIC_URL + "/images/bootstrap-5.PNG"} alt="Bootstrap 5"/></div>
+                <div><img className="icon node" src={process.env.PUBLIC_URL + "/images/Node-js.PNG"} alt="Node JS"/></div>
                 <div><img className="icon babel" src={process.env.PUBLIC_URL + "/images/babel.png"} alt="Babel"/></div>
-                <div><img className="icon es6" src={process.env.PUBLIC_URL + "/images/es6.png"} alt="es6"/></div>
-                <div><img className="icon express" src={process.env.PUBLIC_URL + "/images/ExpressJS.png"} alt="Express JS"/></div>
-                <div><img className="icon mongo" src={process.env.PUBLIC_URL + "/images/MongoDB.png"} alt="Mongo DB"/></div>
-                <div><img className="icon npm" src={process.env.PUBLIC_URL + "/images/npm-logo.png"} alt="npm"/></div>
-                <div><img className="icon react" src={process.env.PUBLIC_URL + "/images/React.png"} alt="React"/></div>
-                <div><img className="icon github" src={process.env.PUBLIC_URL + "/images/github.png"} alt="Github"/></div>
-                <div><img className="icon hyper" src={process.env.PUBLIC_URL + "/images/hyper.png"} alt="Hyper"/></div>
-                <div><img className="icon vscode" src={process.env.PUBLIC_URL + "/images/vscode-logo.png"} alt="vs code"/></div>
-                <div><img className="icon atom" src={process.env.PUBLIC_URL + "/images/atom.png"} alt="Atom"/></div>
+                <div><img className="icon es6" src={process.env.PUBLIC_URL + "/images/es6.PNG"} alt="es6"/></div>
+                <div><img className="icon express" src={process.env.PUBLIC_URL + "/images/ExpressJS.PNG"} alt="Express JS"/></div>
+                <div><img className="icon mongo" src={process.env.PUBLIC_URL + "/images/MongoDB.PNG"} alt="Mongo DB"/></div>
+                <div><img className="icon npm" src={process.env.PUBLIC_URL + "/images/npm-logo.PNG"} alt="npm"/></div>
+                <div><img className="icon react" src={process.env.PUBLIC_URL + "/images/React.PNG"} alt="React"/></div>
+                <div><img className="icon github" src={process.env.PUBLIC_URL + "/images/github.PNG"} alt="Github"/></div>
+                <div><img className="icon hyper" src={process.env.PUBLIC_URL + "/images/hyper.PNG"} alt="Hyper"/></div>
+                <div><img className="icon vscode" src={process.env.PUBLIC_URL + "/images/vscode-logo.PNG"} alt="vs code"/></div>
+                <div><img className="icon atom" src={process.env.PUBLIC_URL + "/images/atom.PNG"} alt="Atom"/></div>
                 </div>
                 <p><em>HTML 5 | CSS 3 | JavaScript | JQuery | NodeJS | ExpressJS | Bootstrap 5 | ES6 | Babel | MongoDB | React | Github </em><br />
                 <br />Please use this site to look through my projects and watch my progression.</p>

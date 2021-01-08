@@ -16,7 +16,7 @@ function Header() {
           <img
             className="logo"
             alt="logo"
-            src={process.env.PUBLIC_URL + "/images/Logo.png"}
+            src={process.env.PUBLIC_URL + "/images/Logo.PNG"}
           />
 
         <div className="mobile-icon" onClick={handleClick}>
