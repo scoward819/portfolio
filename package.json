@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "proxy": "https://nickb6437.github.io/",
+    "proxy": "https://portfolio-contactform.herokuapp.com/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
