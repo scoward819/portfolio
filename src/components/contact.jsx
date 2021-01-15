@@ -33,7 +33,8 @@ function Contact(props) {
       });
 
       Axios.post("https://portfolio-contactform.herokuapp.com/email", {contact})
-           .then( res => {
+        .then( res => {
+          console.log(res)
           setContact.sent(true) 
           console.log("sent")
         })
