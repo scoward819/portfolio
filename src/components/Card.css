@@ -3,18 +3,29 @@
     border: .5vw solid #30475e;
     border-radius: 10px;
     color: black;
-    height: 450px;
+    height: 400px;
+}
+
+.card-body {
+    position: relative;
+}
+
+.btn-group {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .btn {
     background-color: #6e7e8e;
     color:white;
     width: 150px;
+    border-radius: 7px;
 }
 
 .card-img-top {
     border-radius: 10px 10px 0px 0px;
-    height: 55% ;
+    height: 50% ;
 }
 
 .projects-title {
@@ -25,12 +36,31 @@
     margin-top:60px;
 }
 
-.container {
-    margin-top: 80px;
-}
-
 H5 {
     font-weight: 600;
     color: white;
     font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+        height: 400px;
+    }
+
+    .card-img-top {
+        border-radius: 10px 10px 0px 0px;
+        height: 40% ;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .card {
+        height: 430px;
+    }
+
+    .card-img-top {
+        border-radius: 10px 10px 0px 0px;
+        height: 55% ;
+    }
 }

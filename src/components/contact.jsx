@@ -32,14 +32,19 @@ function Contact(props) {
         message:""
       });
 
-      Axios.post("https://portfolio-contactform.herokuapp.com/email", {contact})
+      Axios.post("http://localhost:3000/email", {contact})
         .then( res => {
-          console.log(res)
-          setContact.sent(true) 
-          console.log("sent")
+          if (res.data.success === true) {
+            setContact({
+              sent: true 
+            })
+            console.log("sent")
+          } else {
+            console.log("Message failed")
+          }
         })
-        .catch( () => {
-          console.log('Message not sent');
+        .catch( (err) => {
+          console.log('Message not sent' + err);
         });
     };
 
@@ -69,7 +74,7 @@ function Contact(props) {
 
                 <Button onClick={submitMessage} className="d-inlinne-block" size="lg" variant="primary" type="submit" >Send</Button>
                 
-                {contact.Sent === true ? <strong>Email Sent</strong> : <strong>Email Not Sent</strong> }
+                {contact.sent === true ? <strong>Email Sent</strong> : <strong>Email Not Sent</strong> }
                                 
               </Form> 
           </div>
