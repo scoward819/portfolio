@@ -32,7 +32,7 @@ function Contact(props) {
         message:""
       });
 
-      Axios.post("http://localhost:3000/email", {contact})
+      Axios.post("https://portfolio-contactform.herokuapp.com/email", {contact})
         .then( res => {
           if (res.data.success === true) {
             setContact({
