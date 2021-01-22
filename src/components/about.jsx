@@ -11,15 +11,15 @@ function About() {
                 <h1 id="heading">Hi I'm <br /> Nick Brown </h1> 
             </div>
 
-            <h1 id="heading2"><strong>An Aspiring Web Develeoper!</strong></h1>
+            <h1 id="heading2"><strong>An Aspiring Web Developer!</strong></h1>
 
             <div className="text-area">   
-                <p>Welcome & thank you for visiting my portfolio site. <br/>
-                Like many in 2019 I found myself made redundant due to the events of the year. <br />
-                I have been in print & design for 14 years with experince in lithogarphic print, digital print, print finishing <br />
-                & digital design, using such designs suites as Adobe CS6, indesign, photoshop, Illustaror & Dreamweaver, however... <br />
-                I feel this now opens a great opportunity for me to branch out, learn new skills and start a fresh. <br/>
-                <br />I started to code during my 5 months of furlough and have self taught myself the basics of </p>
+                <p>Welcome and thank you for visiting my portfolio site. <br/>
+                Like many in 2020 I found myself facing redundancy due to the events of the year. <br />
+                I have been in print & design for 14 years with experience in lithogarphic print, digital print, print finishing <br />
+                & digital design, using such designs suites as Adobe CS6, Indesign, Photoshop, Illustrator & Dreamweaver, however... <br />
+                I feel this now opens a great opportunity for me to branch out, learn new skills and embark on an exciting new career path. <br/>
+                <br />During 5 months of furlough in 2020 I embarked on the challenge to learn the basics of </p>
                 
                
                 <div className="iconGrid">

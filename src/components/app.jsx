@@ -16,7 +16,7 @@ function App() {
         setLanding(true);
         setTimeout(() => {
             setLanding(false);
-        }, 8000);
+        }, 3000);
     }, []);
 
     const PageNotFound = () => (<strong>404! somethings not working!!</strong>);

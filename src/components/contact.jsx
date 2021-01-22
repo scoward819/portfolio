@@ -48,11 +48,10 @@ function Contact(props) {
         });
     };
 
-
     return (
 
       <div className="container">
-        <h2 class="contact-title">Contact me I'd love to hear from you</h2>
+        <h2 class="contact-title">Contact me, I'd love to hear from you</h2>
 
           <div className="contactForm">
               <Form>

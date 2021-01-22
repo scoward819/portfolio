@@ -24,7 +24,7 @@ function Landing() {
             </Collapse>
             <Fade in={text} timeout={500}>
                 <h1>
-                Nick Brown <br /> Aspiring Web Develeoper!
+                Nick Brown <br /> Aspiring Web Developer!
                 </h1>
             </Fade>
         </div>
