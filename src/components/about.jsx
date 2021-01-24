@@ -16,7 +16,7 @@ function About() {
             <div className="text-area">   
                 <p>Welcome and thank you for visiting my portfolio site. <br/>
                 Like many in 2020 I found myself facing redundancy due to the events of the year. <br />
-                I have been in print & design for 14 years with experience in lithogarphic print, digital print, print finishing <br />
+                I have been in print & design for 14 years with experience in lithographic print, digital print, print finishing <br />
                 & digital design, using such designs suites as Adobe CS6, Indesign, Photoshop, Illustrator & Dreamweaver, however... <br />
                 I feel this now opens a great opportunity for me to branch out, learn new skills and embark on an exciting new career path. <br/>
                 <br />During 5 months of furlough in 2020 I embarked on the challenge to learn the basics of </p>
